@@ -1,0 +1,90 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+.header {
+}
+
+.blur {
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.blur:focus, .blur:hover {
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+}
+
+.about-me {
+
+}
+
+.one-page {
+    height: 100vh;
+}
+
+.half-page {
+    height: 50vh;
+}
+
+.three-quarters-page {
+    height: 75vh;
+}
+
+.center {
+    text-align: center;
+}
+
+.divider {
+    display: block;
+    width: 100%;
+    height: 1rem;
+    /*background: #fff;*/
+    z-index: 99;
+    /*border-top: 1px solid #eee;*/
+    /*border-bottom: 1px solid #eee;*/
+    border-bottom: 1px solid #bbbbbb;
+}
+
+.northrop {
+    background-color: black;
+    color:whitesmoke;
+
+}
+
+.northrop h2{
+    color: #28a9ff;
+}
+
+.black {
+    background-color: black;
+}
+
+.black h2 {
+    color: #28a9ff;
+}
+
+.about-me {
+    /*color: #F8512F*/
+}
+
+.black p {
+    color: #CCCCCC;
+}
+
+#my-name {
+    margin-top: 25vh;
+}
+
+#tag-line {
+    margin-top: 5vh;
+}
+
+#resume-button {
+    margin-top: 25vh;
+}
+
+.fa {
+    color:white;
+    font-size: 5rem;
+}
