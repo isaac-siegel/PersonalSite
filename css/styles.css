@@ -3,6 +3,8 @@
 }
 
 .header {
+    background: #000000 url(../images/scroll.svg) no-repeat left 50% bottom 40px;
+
 }
 
 .blur {
@@ -81,7 +83,7 @@
 }
 
 #resume-button {
-    margin-top: 25vh;
+    margin-top: 15vh;
 }
 
 .fa {
